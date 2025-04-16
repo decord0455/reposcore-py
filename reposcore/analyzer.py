@@ -3,11 +3,14 @@
 from typing import Dict, Optional
 import matplotlib.pyplot as plt
 
+import matplotlib.cm as cm
+
 import pandas as pd
 import requests
 from prettytable import PrettyTable
 from datetime import datetime
-from .utils.retry_request import retry_request
+
+from utils.retry_request import retry_request
 
 import logging
 import sys
